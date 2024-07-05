@@ -61,7 +61,7 @@ const teamMembers = [
         linkedIn: "https://www.linkedin.com/in/waysahead/"
     }
 ];
-
+// djf
 function ChooseUsCard({ title, description, index }: Readonly<{ title: string, description: string, index: number }>) {
     return (
         <Card className={cn('bg-primary/20 hover:bg-primary/50 transition-all duration-300 hover:scale-95')}>
